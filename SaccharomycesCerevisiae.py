@@ -1,8 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-18 DE JUNIO DEL 2024
-ejemplo numerico DEFINITIVO
-"""
 import numpy as np
 import matplotlib.pyplot as plt
 from scipy.stats import gamma, norm
