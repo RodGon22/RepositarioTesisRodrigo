@@ -10,7 +10,7 @@ from scipy.integrate import odeint
 def logistic_differential_equation(x,t, K, L):
     return L * x * (K - x)
 
-# Resolver la ecuación diferencial utilizando el método de Euler
+# Resolver la ecuación diferencial utilizando odeint
 def solve_logistic_differential_equation(t_data, K, L):
     x_values = odeint(logistic_differential_equation,[0.2],t_data,args=(K,L)).flatten()
     return np.array(x_values)
